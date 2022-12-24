@@ -1,0 +1,27 @@
+.search {
+  display: flex;
+  align-items: center;
+  border: 2px solid var(--dark20);
+  border-radius: 5px;
+}
+
+.search > .faSearch {
+  margin: 0 10px;
+}
+.search input {
+  flex: 1;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--dark20);
+}
+
+.search input:focus {
+  box-shadow: 0 0 3px 0 transparent;
+  border-color: transparent;
+  outline: none;
+}
+
+.contactList {
+}

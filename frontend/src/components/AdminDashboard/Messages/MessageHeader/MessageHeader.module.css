@@ -1,0 +1,58 @@
+.messageHeader {
+  display: flex;
+}
+
+.profile {
+  width: 35px;
+  height: 35px;
+  border: 0.856089px solid var(--light200);
+  border-radius: 6.84871px;
+  position: relative;
+  margin-right: 10px;
+}
+
+.messageHeaderInfo {
+  flex: 1;
+}
+
+.messageHeaderInfo__header {
+  display: flex;
+  justify-items: center;
+  font-size: 12px;
+}
+
+.messageHeaderInfo__newCustomer {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.messageHeaderInfo__viewProfile {
+  color: var(--green200);
+  cursor: pointer;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.messageHeaderSubInfo {
+  display: flex;
+  justify-items: center;
+}
+
+.messageHeaderSubInfo>div {
+  display: flex;
+  align-items: center;
+}
+
+.noOfOrders {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.status {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}

@@ -1,0 +1,94 @@
+.genContainer{
+overflow:hidden;
+}
+ 
+.heading{
+font-family: Urbanist;
+ font-style: Medium;
+  font-size: 27.01px;
+   line-height: 33.01px;
+   color:  #121212;
+ }
+
+ .savedItemsContainer{
+   width: 682.5px;
+    margin: auto;
+     top: 771.93px;
+      left: 377.25px;
+ }
+
+ .th{
+    left: 26.2%;
+    right: 69.78%;
+    top: 24.68%;
+    bottom: 73.67%;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.0058px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #121212;
+ }
+
+ .itemsImg{
+    height: 97.76510620117188px;
+        width: 75px;
+        left: 377.2451171875px;
+        top: 372.7724609375px;
+        border-radius: 0px;
+ }
+
+ .productDetails{
+    font-family: Urbanist;
+     font-style: Regular;
+      font-size: 10.5px;
+       line-height: 16.51px; 
+       color:  #A0A0A0; 
+ }
+.remove{
+font-family: Urbanist;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 12px;
+    color:#121212;
+    text-decoration: underline;
+        text-decoration-color: #E5E5E5;
+}
+
+.productname{
+font-family: Urbanist;
+ font-style: SemiBold;
+  font-size: 12px;
+   line-height: 18.01px; 
+   color : Solid #121212;
+}
+
+ .qty {
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    border: 0.75px solid #E5E5E5;
+    padding: 5px;
+    cursor: pointer;
+   color: #121212;
+}
+
+.btnName{
+    font-style: SemiBold;
+     font-size: 12px;
+      line-height: 19.51px;
+}
+
+.btn{
+   height: 36.013938903808594px;
+      width: 131.30081176757812px;
+   background:#121212;
+   color: #FFFFFF;
+}
+.btndiv{ 
+
+}
+.reply{
+
+}

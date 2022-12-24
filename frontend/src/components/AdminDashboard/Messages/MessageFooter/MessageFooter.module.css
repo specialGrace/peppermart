@@ -1,0 +1,42 @@
+.messageFooter {
+  display: flex;
+  align-items: center;
+  border: 2px solid var(--dark20);
+  padding: 0.5rem 1rem;
+}
+
+.messageFooter input {
+  flex: 1;
+  padding: 0.4rem;
+}
+
+.messageFooter input:focus {
+  box-shadow: 0 0 3px 0 transparent;
+  border-color: transparent;
+  outline: none;
+}
+
+.sendMessage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff2e2;
+  padding: 0.5rem 1rem;
+  border-radius: 2px;
+}
+
+.addMessage,
+.emoji,
+.input {
+  margin-right: 20px;
+}
+
+.addMessage,
+.emoji,
+.sendMessage {
+  cursor: pointer;
+}
+
+.emoji {
+  color: var(--green200);
+}

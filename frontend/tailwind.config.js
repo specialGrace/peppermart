@@ -1,0 +1,43 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ['./src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        peppermartOrange: '#FF5102',
+        peppermartDark500: '#1F2B5B',
+        PeppermartHomeBg: '#BAC3E8',
+        peppermartYellow100: '#F2D2C2',
+        peppermartYellow120: '#FFDCCC',
+        peppermartDark300: '#45464E',
+        peppermartDark10: '#BEC0CA',
+        peppermartDark15: '#ABAFB1',
+        peppermartDark20: '#a6a8b1',
+        peppermartDark30: '#8b8d97',
+        peppermartDark50: '#53545C',
+        peppermartDark60: '#45464e',
+        PeppermartBtnPrimary: '#1F2B5B',
+        peppermartDark80: '#33343a',
+        peppermartDark600: '#121212',
+        peppermartDark700: '#000000',
+        peppermartSql: 'rgba(94, 99, 102, 0.08)',
+        peppermartGreen200: '#519C66',
+        peppermartBlue300: '#1F2B5B',
+        peppermartRed200: '#CC5F5F',
+        peppermartBtnPrimary2: '#e5e5e5',
+        peppermartCarton60: '#FFC84E',
+        peppermartDarkResetPwd: '#DCF2ED',
+        peppermartDarkWhite120: '#FFFFFD',
+        pepprmartDark800: '#331E82',
+        peppermartDarkStore: 'rgba(28, 25, 57, 0.5)',
+        peppermartDarkStore100: 'rgba(196, 196, 196, 0.11)',
+        peppermartSecondary2: '#A0A0A0',
+      },
+      fontFamily: {
+        Urbanist: ['Urbanist', 'sans-serif'],
+        Inter: ['Inter', 'sans-serif'],
+      },
+    },
+  },
+  plugins: [],
+}

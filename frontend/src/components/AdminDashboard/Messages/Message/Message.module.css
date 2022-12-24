@@ -1,0 +1,14 @@
+.container {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.messageBody {
+  flex: 1;
+  overflow-y: hidden;
+}
+
+.messageBody:hover {
+  overflow-y: auto;
+}

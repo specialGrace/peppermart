@@ -1,0 +1,52 @@
+/* tablet': '640px */
+.container {
+  min-height: 80vh;
+  background-color: var(--light);
+  padding: 0.5rem;
+  font-family: "Urbanist", sans-serif;
+}
+
+.notificationTab > button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--peppermart-dark500);
+  color: var(--light);
+  padding: 8px 16px;
+  gap: 8px;
+  border-radius: 8px;
+}
+
+.notificationTab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notificationTab > span {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--dark80);
+}
+
+@media (min-width: 640px) {
+}
+
+@media (min-width: 768px) {
+}
+
+/* 'laptop': '1024px' */
+@media (min-width: 1024px) {
+  .container {
+    padding: 2rem;
+  }
+}
+
+/* 'desktop': '1280px', */
+@media (min-width: 1280px) {
+}
+
+@media (min-width: 1536px) {
+}

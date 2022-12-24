@@ -1,0 +1,31 @@
+.container{
+    position: relative;
+}
+
+.categories{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.categories h4{
+    font-weight: bold;
+}
+
+.categories > span{
+    width: 20px;
+    height: 20px;
+    background-color: var(--peppermart-orange);
+    color: var(--light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    /* position: relative; */
+}
+
+.categories:hover{
+    background-color: var(--peppermart-orange);
+    opacity: 0.5;
+}

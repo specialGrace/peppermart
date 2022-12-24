@@ -1,0 +1,137 @@
+.navcontainer {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(146, 149, 152, 0.08);
+    width: 1070px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.first {
+    width: 80px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.firstIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 32px;
+    background: #E5E5E5;
+    border: 0.3px solid #E5E5E5;
+}
+
+.secondIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 32px;
+    background: rgba(196, 196, 196, 0.11);
+    border: 0.3px solid #E5E5E5;
+}
+
+.secondLeft {
+    width: 80px;
+    height: 32px;
+    background: #E5E5E5;
+    margin-right: 3rem;
+    padding: 0 10px;
+}
+
+.thirdLeft {
+    width: 201px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(196, 196, 196, 0.11);
+    padding: 0 10px;
+}
+
+.navLeft {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.navRigth {
+    width: 128px;
+    height: 32px;
+    background-color: #1F2B5B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+
+.storeActionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.storeAction {
+    width: 347px;
+    height: 120.62px;
+}
+
+.storeTitle {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #121212;
+}
+
+.stotewords {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #121212;
+    margin-top: 1rem;
+}
+
+.storeWrapper {
+    background: #1F2B5B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 1px 2px 3px rgba(0, 0, 0, 0.08);
+    border-radius: 2px;
+    width: 235px;
+    height: 46.62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.plusIcon2 {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.storecreation {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 1rem;
+}

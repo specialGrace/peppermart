@@ -1,0 +1,106 @@
+.container{
+    width:100%;
+    height: 96px;
+    background-color: var(--light);
+}
+ 
+.topBar{
+    width:80%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center; 
+}
+
+.spacer{
+    flex:1
+}
+
+.topBarLeft, .topBarSearch, .topBarRight{
+    display: flex;
+    align-items: center;
+}
+
+.topBarRight{
+    position: relative;
+}
+
+.topBarSearch{
+   margin-right: 30px; 
+   display: flex;
+   align-items: center;
+   border: 1px solid #91929D;
+   padding: 8px 12px;
+}
+
+.input[type="search"]{
+    padding: 4px 8px;
+}  
+
+.input[type="search"]:focus {
+    box-shadow: 0 0 3px 0 transparent;
+    border-color: transparent;
+    outline: none;
+  }
+
+.icons{
+    font-size: 20px;
+    margin-right: 12px;
+    color: black;
+    cursor: pointer;
+}
+
+.topIcons{
+    color: var(--light);
+}
+
+.cart{
+    position: absolute;
+    top:-2px;
+    right:6px;
+    width:12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--peppermart-orange);
+    color:var(--light);
+    font-size: .5rem;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:980px){
+    .topBarSearch{
+        display: none;
+    }
+}
+
+@media (max-width:678px){
+    .hideOnMobile{
+        display: none;
+    } 
+    
+}
+
+@media (max-width:500px){
+    .topBar{
+        width:95%; 
+    }
+
+    /* top bar */
+    .icons{
+        font-size: 16px;
+        margin-right: 8px;
+    }
+    
+    .cart{
+        position: absolute;
+        top:-2px;
+        right:6px;
+        width:12px;
+        height: 12px;
+    }
+   
+}

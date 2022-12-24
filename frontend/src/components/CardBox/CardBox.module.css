@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  min-width: 310px;
+  height: 150px;
+  border-radius: 8px;
+  background-color: var(--light);
+  margin: 20px;
+  padding: 15px;
+}
+
+/* tablet': '640px */
+@media (min-width: 640px) {
+}
+
+@media (min-width: 768px) {
+}
+
+/* 'laptop': '1024px' */
+@media (min-width: 1024px) {
+}
+
+/* 'desktop': '1280px', */
+@media (min-width: 1280px) {
+}
+
+@media (min-width: 1536px) {
+}

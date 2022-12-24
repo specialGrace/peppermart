@@ -1,0 +1,13 @@
+.wishlistCon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f5f5f5;
+  background-image: url("https://res.cloudinary.com/dlhjvo4tz/image/upload/v1667396675/shop-hero-3-product-slide-2_2_npojej.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 2rem;
+}

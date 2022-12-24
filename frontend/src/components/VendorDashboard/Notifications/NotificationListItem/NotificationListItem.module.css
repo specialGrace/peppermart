@@ -1,0 +1,78 @@
+/* tablet': '640px */
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+.noficationContent {
+  flex: 1;
+  line-height: 2;
+}
+
+.noficationContent__Title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.infoIcon {
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.trashIcon {
+  cursor: pointer;
+}
+
+.noficationContent__Title > span {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+
+  color: var(--dark80);
+}
+
+.noficationContent p {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.noficationContent__desc {
+  color: var(--dark60);
+}
+
+.noficationContent__date {
+  color: var(--dark40);
+}
+
+@media (min-width: 640px) {
+  .noficationContent__Title {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+/* 'laptop': '1024px' */
+@media (min-width: 1024px) {
+  .container {
+    margin: 2rem 0;
+    flex-direction: row;
+  }
+  .noficationContent__Title > span {
+    font-size: 18px;
+  }
+}
+
+/* 'desktop': '1280px', */
+@media (min-width: 1280px) {
+}
+
+@media (min-width: 1536px) {
+}
